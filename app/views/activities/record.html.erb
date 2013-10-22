@@ -1,62 +1,10 @@
- <title>Track your strength training</title>
+
 <!-- <link href="bootstrap.min.css" rel="stylesheet" media="screen"> -->
 <!-- <link rel="stylesheet" type="text/css" href="jumbotron-narrow.css"> -->
 <!-- $('.dropdown-toggle').dropdown() -->
 
  <!-- <link rel="stylesheet" type="text/css" href="s4h.css"> -->
-</head>
-<h1>STRENGTH</h1>
- <nav class="navbar navbar-default" role="navigation">
 
-   <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="http://www.thera-band.com">Theraband</a>
-  </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
- <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="http://www.thera-band.com/UserFiles/Image/PullForceChartUpdate_500pxW.jpg">Colors</a></li>
-      <li><a href="#">Quick Track</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Exercises <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Chest press</a></li>
-          <li><a href="#">Overhead press</a></li>
-          <li><a href="#">Bicep curl</a></li>
-          <li><a href="#">Hip abductor</a></li>
-          <li><a href="#">Calf raise</a></li>
-        </ul>
-      </li>
-    </ul>
-    <form class="navbar-form navbar-left" role="search">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search">
-      </div>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="http://drkatewolin.com">Wolin Lab</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">ACSM</a></li>
-          <li><a href="#">American Cancer Society</a></li>
-          <li><a href="#">Loyola University</a></li>
-
-        </ul>
-      </li>
-    </ul>
-  </div><!-- /.navbar-collapse -->
-</nav>
-
-
-<body>
 <div class="container">
       <h1>STRENGTH</h1> -->
 
@@ -71,9 +19,8 @@
       <div class="caption">
         <h3><a href="/details?id=<%= item_number %>">
       <%=each[:exercise]%></a></h3>
-       <!--  <p><%=each[:description]%>
-          </p>
-        <p><b>TIP:</b> <%=each[:tip]%></p> -->
+      <p><%=each[:description]%></p>
+        <p><b>TIP:</b> <%=each[:tip]%></p>
           <div class="btn-group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
             Reps <span class="caret"></span></button>
