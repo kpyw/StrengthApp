@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #6996D3
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 6px;
+  font-size: 15px;
+}
+
+.jumbotron h1 {
+  margin-top: 2px;
+  font-size: 60px;
+}
+
+.tip {
+  font-size: 20px;
+}
